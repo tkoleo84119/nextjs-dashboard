@@ -1,4 +1,6 @@
-export default function RootLayout({
+import '@/app/ui/global.css';
+
+export default function RootLayout ({
   children,
 }: {
   children: React.ReactNode;
